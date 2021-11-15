@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    margin:0px;
+}
+.post{
+  width:250px;
+  /* height:200px; */
+  /*min-height:30px;*/
+  background: yellow;
+   box-shadow: 0 0 0 1px black inset;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.postHead{
+  font-size:12px;
+  width:85%;
+  padding-right:5px;
+  overflow: hidden;
+}
+
+.subject{
+  text-align:left;
+
+}
+
+.inline-block{
+  display:inline-block;
+}
+
+.main{
+  min-width:800px;
+  min-height:600px;
+  width:100%;
+  height:100%;
+}
+.body{
+  margin-right:5px;
+  margin-left:5px;
+}
+.contents{
+  font-size:12px;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  resize: none;
+  border:0;
+  background-color: inherit;
+
+}
+.postHead>.onOffToggle{
+  font-size: 10px;
+  position: absolute;
+  top:0px;
+  right:20px;
+  cursor:pointer;
+
+}
+
+.postHead>.delete{
+  font-size: 10px;
+  position: absolute;
+  top:0px;
+  right:1px;
+}
+
+.close>input{
+  font-size: 10px;
+}
+.open>input{
+  font-size: 10px;
+}
+.delete>input{
+  font-size: 10px;
+}
+
+.hidden{
+  display:none;
+}
+
+.context_menu{
+  width:220px;
+  position: absolute;
+  background-color: white;
+  display: none;
+  z-index: 100000;
+  border:1px solid;
+  height:200px;
+}
+
+.resizable{
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  cursor:pointer;
+}
+
+option#yellow {
+	background-color:  yellow !important;
+}
+
+option#blue {
+	background-color: blue;
+}
+option#red {
+	background-color: red;
+}
+option#gray {
+	background-color: gray;
+}
+option#green {
+	background-color: green;
+}
+option#white {
+  background-color: white;
+}
+option#black {
+  background-color: black;
+}
+
+.context_li_input{
+  width:60px;
+}
+
+button.toggle{
+  border:none;
+  font-size:10px;
+}
+button.deletePost{
+  border:none;
+  font-size:10px;
+}
+.time-span{
+  position: absolute;
+  top:0px;
+  left:0px;
+  cursor: pointer;
+}
+.contents-span{
+  position: absolute;
+  top:0px;
+  left:0px;
+  cursor: pointer;
+}
